@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f4f6;
+}
+
+header {
+    background-color: #1f2967;
+    padding: 10px 0;
+    color: white;
+}
+
+.navbar_container {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: #fffc;
+    font-size: 1rem;
+    text-decoration: underline;
+    margin: 0 10px;
+    transition: all .2s ease-in-out;
+}
+
+nav a:hover {
+    color: #e67070;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #1f2967;
+    color: #f9faf8;
+}
+
+.heading h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.heading p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image img {
+    max-width: 500px;
+    height: auto;
+    align-items: right;
+}
+
+.information {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    padding: 50px 20px;
+    background-color: rgb(222, 208, 222)
+}
+
+.cta{
+    color: #3882f6;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+    
